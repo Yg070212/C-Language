@@ -8,7 +8,8 @@
 // 처리되는 문장이기 때문에 명령문 끝에 ";"을 사용하지 않습니다.
 #pragma endregion
 
-void main() {
+void main()
+{
 #pragma region 실수를 저장하는 방법
 
 #pragma region 고정 소수점
