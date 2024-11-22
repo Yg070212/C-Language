@@ -35,16 +35,87 @@ void main()
 
 #pragma region Star
 
+	// int input = 0;
+	// 
+	// scanf_s("%d", &input);
+	// 
+	// for (int i = 0; i < input; i++)
+	// {
+	// 	printf("★", i);
+	// 	printf("\n");
+	// 	for (int j = 0; j <= i; j++)
+	// 	{
+	// 		printf("★", j);
+	// 	}
+	// }
 
-	for (int i = 1; i <= 1; i++)
-	{
-		printf("★", i);
-		printf("\n");
-		for (int j = 1; j <= 2; j++)
-		{
-			printf("★", j);
-		}
-	}
+#pragma endregion
+
+#pragma region 포인터
+	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
+
+	// int x = 10; // <- 변수의 주소값
+	// 
+	// int* pointer = &x; // <- 포인터 변수 선언, x에 시작 주소를 넣어줬다.
+	// 
+	// *pointer = 99; // <- 역참조
+	// 
+	// printf("x의 변수 값 : %d\n", x);
+	// printf("x의 주소 값 : %p\n", &x);
+	// printf("pointer 변수의 값 : %p\n", pointer);
+	// printf("pointer 변수의 주소 값 : %p\n", &pointer);
+	// 
+	// printf("\n");
+	// 
+	// // 포인터 변수도 자신의 메모리 공간을 가지고 있으며,
+	// // 포인터 변수에 변수의 주소를 저장하게 되면 해당
+	// // 변수의 시작 주소를 가리키게 됩니다.
+	// 
+	// float health = 100.0f;
+	// 
+	// pointer = &health;
+	// 
+	// *pointer = 15.5f;
+	// 
+	// printf("health 변수의 값 : %f\n", &health);
+	// 
+	// // 포인터 변수를 저장하기 위해 주소 값을 저장할 변수의
+	// // 자료형과 포인터 변수의 자료형이 일치해야 합니다.
+	// 
+	// printf("포인터 변수의 크기 : %d\n", sizeof(pointer));
+
+	// 포인터 변수의 크기는 중앙 처리 장치가 한 번에 처리할 수
+	// 있는 크기로 정해지며, 한 번에 처리할 수 있는 크기는
+	// 운영 체제에 따라 크기가 결정됩니다.
+
+#pragma endregion
+
+#pragma region 범용 포인터
+	// 자료형이 정해지지 않은 상태로 모든 자료형을
+	// 저장할 수 있는 포인터입니다.
+	
+	void* p = NULL;
+
+	char character = 'A';
+	int integer = 10;
+	float decimal = 5.5f;
+
+	p = &character;
+	*(char*) p = 'B';
+	printf("character의 주소 값 : %c\n", character);
+
+	p = &integer;
+	*(int*) p = 15;
+	printf("integer의 주소 값 : %d\n", integer);
+
+	p = &decimal;
+	*(float*) p = 3.25f;
+	printf("decimal의 주소 값 : %f\n", decimal);
+
+	// 범용 포인터는 메모리 주소에 접근해서 값을
+	// 변경할 수 없습니다.
+
+
 
 #pragma endregion
 
