@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4e881888-89ce-485a-8166-2a35432bac1e}</ProjectGuid>
-    <RootNamespace>Class3Bit</RootNamespace>
+    <ProjectGuid>{fc03260d-44b6-4c87-92f7-d8c9441b5acb}</ProjectGuid>
+    <RootNamespace>Class8thPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Class3th (Bit)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
