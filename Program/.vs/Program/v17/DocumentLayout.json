@@ -7,13 +7,16 @@
       "RelativeMoniker": "D:0:0:{358C6844-3B78-4CDF-9941-BA78D13D6278}|Program.vcxproj|solutionrelative:Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64883AB8-AC22-4D5E-9DE1-C2107F7CEEFA}|..\\Class10th (Function)\\Class10th (Function).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class10th (Function)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FD863241-4AE0-4C11-9D1B-AA525C433A38}|..\\Class11th (Dynamic Allocation)\\Class11th (Dynamic Allocation).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class11th (Dynamic Allocation)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC03260D-44B6-4C87-92F7-D8C9441B5ACB}|..\\Class8th (Pointer)\\Class8th (Pointer).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class8th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6179BE1-15F5-4661-9896-093CDF4E89EA}|..\\Class9th (Arrangement)\\Class9th (Arrangement).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class9th (Arrangement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64883AB8-AC22-4D5E-9DE1-C2107F7CEEFA}|..\\Class10th (Function)\\Class10th (Function).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class10th (Function)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +36,7 @@
               "RelativeDocumentMoniker": "Program.c",
               "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Program\\Program.c",
               "RelativeToolTip": "Program.c",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAYwFoAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-12T09:21:00.937Z",
               "IsPinned": true,
@@ -43,14 +46,26 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class11th (Dynamic Allocation)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class11th (Dynamic Allocation)\\Source.c",
+              "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class11th (Dynamic Allocation)\\Source.c",
+              "RelativeToolTip": "..\\Class11th (Dynamic Allocation)\\Source.c",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAswKEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-02T10:41:06.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class10th (Function)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class10th (Function)\\Source.c",
               "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class10th (Function)\\Source.c",
               "RelativeToolTip": "..\\Class10th (Function)\\Source.c",
               "ViewState": "AQIAAJgAAAAAAAAAAAAYwKMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-29T09:33:33.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T09:33:33.058Z"
             },
             {
               "$type": "Document",
@@ -60,9 +75,10 @@
               "RelativeDocumentMoniker": "..\\Class9th (Arrangement)\\Source.c",
               "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\C-Language\\Class9th (Arrangement)\\Source.c",
               "RelativeToolTip": "..\\Class9th (Arrangement)\\Source.c",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAYwGsAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-27T09:04:47.005Z"
+              "WhenOpened": "2024-11-27T09:04:47.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +90,8 @@
               "RelativeToolTip": "..\\Class8th (Pointer)\\Source.c",
               "ViewState": "AQIAAGcAAAAAAAAAAAAAAJ0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-25T10:04:47.417Z"
+              "WhenOpened": "2024-11-25T10:04:47.417Z",
+              "EditorCaption": ""
             }
           ]
         }
