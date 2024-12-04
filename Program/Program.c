@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 struct GameObject
 {
@@ -11,6 +12,18 @@ struct GameObject
 	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리의
 	// 크기가 다르게 설정될 수 있으며, 구조체 크기를 결정하는
 	// 형태는 기본 자료형으로만 구성되어 있습니다.
+};
+
+struct Vector2
+{
+	float x;
+	float y;
+};
+
+struct Node
+{
+	int data;
+	struct Node* next;
 };
 
 void main()
@@ -48,26 +61,46 @@ void main()
 
 #pragma region 두 점 사이의 거리
 
-	// printf("100의 제곱근 : %lf\n", sqrt(100)); // <- 제곱근
+	// struct Vector2 character = { 0, 0 };
+	// struct Vector2 slime = { 1.75f, 1.25f };
 	// 
+	// double x = character.x - slime.x;
+	// double y = character.y - slime.y;
+	// 
+	// double distance = sqrt(pow(x, 2) + pow(y, 2));
+	// 
+	// if (distance >= 3.0f)
+	// {
+	// 	printf("이동 상태\n");
+	// }
+	// else if (distance < 3.0)
+	// {
+	// 	printf("공격 상태\n");
+	// }
+
+	// printf("100의 제곱근 : %lf\n", sqrt(100));
 	// printf("10²: %lf\n", pow(10, 2));
 
-	int character1, monster1, character2, monster2;
-	double distance;
+#pragma endregion
 
-	distance = sqrt(pow(character2 - character1, 2) + pow(monster2 - monster1, 2));
+#pragma region 자기 참조 구조체
+	// 구조체 내부에 자기 자신의 자료형을 멤버 변수로
+	// 가지고 있는 구조체입니다.
 
-	if (distance = 3.0f)
-	{
-		printf("공격 상태");
-	}
-	else if (distance != 3.0f)
-	{
-		printf("공격 해제 상태");
-	}
+	struct Node* node1 = malloc(sizeof(struct Node));
+	struct Node* node2 = malloc(sizeof(struct Node));
+	struct Node* node3 = malloc(sizeof(struct Node));
+	struct Node* currentNode = malloc(sizeof(struct Node));
+
+	node1->data = 10;
+	node2->data = 20;
+	node3->data = 30;
+
+	node1->next = &node2;
+	node2->next = &node3;
+	node3->next = NULL;
 	
-
-	
+	while
 
 #pragma endregion
 
