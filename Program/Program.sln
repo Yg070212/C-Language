@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Function)", "..\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (Dynamic Allocation)", "..\Class11th (Dynamic Allocation)\Class11th (Dynamic Allocation).vcxproj", "{FD863241-4AE0-4C11-9D1B-AA525C433A38}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (Struct)", "..\Class12th (Struct)\Class12th (Struct).vcxproj", "{4EC59D63-1927-484B-A71E-8444AEC2B25B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{FD863241-4AE0-4C11-9D1B-AA525C433A38}.Release|x64.Build.0 = Release|x64
 		{FD863241-4AE0-4C11-9D1B-AA525C433A38}.Release|x86.ActiveCfg = Release|Win32
 		{FD863241-4AE0-4C11-9D1B-AA525C433A38}.Release|x86.Build.0 = Release|Win32
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Debug|x64.ActiveCfg = Debug|x64
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Debug|x64.Build.0 = Debug|x64
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Debug|x86.ActiveCfg = Debug|Win32
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Debug|x86.Build.0 = Debug|Win32
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Release|x64.ActiveCfg = Release|x64
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Release|x64.Build.0 = Release|x64
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Release|x86.ActiveCfg = Release|Win32
+		{4EC59D63-1927-484B-A71E-8444AEC2B25B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
